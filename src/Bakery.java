@@ -1,4 +1,3 @@
-package hw2.csc4585;
 /*
  * Stephen Vondenstein
  *
