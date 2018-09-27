@@ -7,8 +7,7 @@ This is an example implementation of a Bakery Lock in Java for _n_ threads. The 
 
 ## Running Locally
 
-1. Clone locally via GitHub Desktop, or via CLI: 
-`git clone https://github.com/svondenstein/BakeryExample.git`
+1. Clone locally via GitHub Desktop, or via CLI: `git clone https://github.com/svondenstein/BakeryExample.git`
 2. Compile the source files in src/: `javac *.java`
 3. Run BakeryExample: `java BakeryExample`
 4. Enter the number of threads you wish to execute (running with a higher thread count may take longer depending on your machine)
