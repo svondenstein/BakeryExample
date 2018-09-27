@@ -15,18 +15,16 @@ public class BakeryExample {
         }
         final Shared v = new Shared();
 
-        Runnable r = new Runnable() {
-            public void run() {
-                for (int i = 0; i<10000; i++) {
-                    b.lock();
-                    try {
-                        v.c++;
-                    } finally {
-                        b.unlock();
-                    }
+        Runnable r = () -> {
+            for (int i = 0; i<10000; i++) {
+                b.lock();
+                try {
+                    v.c++;
+                } finally {
+                    b.unlock();
                 }
-                System.out.println("thread:" + ThreadID.get() + ", c-value = " + v.c);
             }
+            System.out.println("thread:" + ThreadID.get() + ", c-value = " + v.c);
         };
 
         System.out.println("Bakery Lock algorithm with " + n + " threads...");
