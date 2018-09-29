@@ -16,4 +16,4 @@ to the shared variable.
 
 ## Licensing
 
-The code in class ThreadID is not mine, and was given in the textbook The Art of Multiprocessor Programming by Maurice Herlihy & Nir Shavit.
+The code in class ThreadID is not mine, and was given in the textbook The Art of Multiprocessor Programming by Maurice Herlihy & Nir Shavit. This program was created as an assignment for CSC 4585 - Multicore Programming at LSU.
